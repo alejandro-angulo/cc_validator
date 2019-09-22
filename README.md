@@ -5,6 +5,9 @@ cc_validator is a Django app meant to validate and generate credit/debit card nu
 
 Quick Start
 ===========
+0. Install `cc_validator` from the github repository
+    `pip install git+https://github.com/vacuus/cc_validator`.
+
 1. Add `cc_validator` to your `INSTALLED_APPS` setting like this:
     ```python
     INSTALLED_APPS: [
@@ -17,7 +20,15 @@ Quick Start
 2. Include the `cc_validator` URLconf in your project `urls.py` like
     this:
     ```python
-    path('cc_validator/', include('cc_validator.urls', namespace="cc_validator"))
+    # ...
+    from django.urls import include, path
+
+    #...
+    urlpatterns = [
+        # ...
+        path('cc_validator/', include('cc_validator.urls', namespace="cc_validator")),
+        # ...
+    ]
     ```
 
 3. Run `python manage.py makemigrations cc_validator` to create the
@@ -32,6 +43,9 @@ Quick Start
     ```    
     **Note: It's important to load `cc_validators/issuers.json` before
     `cc_validators/iins.json`. The latter depends on the former.**
+
+5. You're ready to use the app! Go ahead and run `python manage.py 
+    runserver`. See below for more information on the endpoints.
 
 Validating Card Numbers
 =======================
