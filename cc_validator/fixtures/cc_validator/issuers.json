@@ -1,0 +1,30 @@
+[
+  {
+    "model": "cc_validator.Issuer",
+    "fields": {
+      "network_name": "American Express",
+      "valid_lengths": "15"
+    }
+  },
+  {
+    "model": "cc_validator.Issuer",
+    "fields": {
+      "network_name": "Visa",
+      "valid_lengths": "16"
+    }
+  },
+  {
+    "model": "cc_validator.Issuer",
+    "fields": {
+      "network_name": "Mastercard",
+      "valid_lengths": "16"
+    }
+  },
+  {
+    "model": "cc_validator.Issuer",
+    "fields": {
+      "network_name": "Discover Card",
+      "valid_lengths": "16,17,18,19"
+    }
+  }
+]

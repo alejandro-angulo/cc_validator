@@ -1,0 +1,14 @@
+# Optimized files
+__pycache__
+
+# Distribution/packaging
+dist/
+build/
+*.egg*
+
+# virtualenv
+env/
+venv/
+
+# IDE files
+.idea/

@@ -1,0 +1,72 @@
+[
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 0,
+    "fields": {
+      "issuer_category": "ISO/TC 68 and other industry assignments"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 1,
+    "fields": {
+      "issuer_category": "Airlines"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 2,
+    "fields": {
+      "issuer_category": "Airlines, financial and other future industry assignments "
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 3,
+    "fields": {
+      "issuer_category": "Travel and entertainment"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 4,
+    "fields": {
+      "issuer_category": "Banking and financial"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 5,
+    "fields": {
+      "issuer_category": "Banking and financial"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 6,
+    "fields": {
+      "issuer_category": "Merchandising and banking/financial"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 7,
+    "fields": {
+      "issuer_category": "Petroleum and other future industry assignments"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 8,
+    "fields": {
+      "issuer_category": "Healthcare, telecommunications and other future industry assignments"
+    }
+  },
+  {
+    "model": "cc_validator.MajorIndustry",
+    "pk": 9,
+    "fields": {
+      "issuer_category": "For assignment by national standards bodies"
+    }
+  }
+]
